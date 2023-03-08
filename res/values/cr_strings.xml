@@ -301,7 +301,7 @@
     <string name="pref_quickspace_city_summary">Display current city</string>
     <string name="cloudy">Mostly cloudy</string>
     <string name="rainy">Mostly rainy</string>
-    <string name="sunny">Mostly sunny</string>
+    <string name="sunny">Clear sky</string>
     <string name="stormy">Mostly stormy</string>
     <string name="snowy">Mostly snowy</string>
     <string name="windy">Mostly windy</string>
