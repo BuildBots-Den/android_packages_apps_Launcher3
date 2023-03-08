@@ -218,7 +218,7 @@ public class QuickspaceController implements NotificationListener.NotificationsC
             } else if (formattedCondition.toLowerCase().contains("rain")) {
               formattedCondition = "Rainy";
             } else if (formattedCondition.toLowerCase().contains("clear")) {
-              formattedCondition = "Sunny";
+              formattedCondition = "Clear Sky";
             } else if (formattedCondition.toLowerCase().contains("storm")) {
               formattedCondition = "Stormy";
             } else if (formattedCondition.toLowerCase().contains("snow")) {
