@@ -80,7 +80,7 @@ public final class FeatureFlags {
             "PROMISE_APPS_IN_ALL_APPS", false, "Add promise icon in all-apps");
 
     public static final BooleanFlag KEYGUARD_ANIMATION = getDebugFlag(
-            "KEYGUARD_ANIMATION", false, "Enable animation for keyguard going away on wallpaper");
+            "KEYGUARD_ANIMATION", true, "Enable animation for keyguard going away on wallpaper");
 
     public static final BooleanFlag ENABLE_DEVICE_SEARCH = new DeviceFlag(
             "ENABLE_DEVICE_SEARCH", true, "Allows on device search in all apps");
@@ -171,7 +171,7 @@ public final class FeatureFlags {
 
     public static final BooleanFlag ALWAYS_USE_HARDWARE_OPTIMIZATION_FOR_FOLDER_ANIMATIONS =
             getDebugFlag(
-                    "ALWAYS_USE_HARDWARE_OPTIMIZATION_FOR_FOLDER_ANIMATIONS", false,
+                    "ALWAYS_USE_HARDWARE_OPTIMIZATION_FOR_FOLDER_ANIMATIONS", true,
                     "Always use hardware optimization for folder animations.");
 
     public static final BooleanFlag SEPARATE_RECENTS_ACTIVITY = getDebugFlag(
@@ -369,7 +369,7 @@ public final class FeatureFlags {
     );
 
     public static final BooleanFlag ENABLE_FORCED_MONO_ICON = getDebugFlag(
-            "ENABLE_FORCED_MONO_ICON", false,
+            "ENABLE_FORCED_MONO_ICON", true,
             "Enable the ability to generate monochromatic icons, if it is not provided by the app"
     );
 
