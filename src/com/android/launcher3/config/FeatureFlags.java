@@ -357,7 +357,7 @@ public final class FeatureFlags {
     );
 
     public static final BooleanFlag ENABLE_PREMIUM_HAPTICS_ALL_APPS = getDebugFlag(270396358,
-            "ENABLE_PREMIUM_HAPTICS_ALL_APPS", false,
+            "ENABLE_PREMIUM_HAPTICS_ALL_APPS", true,
             "Enables haptics opening/closing All apps");
 
     public static final BooleanFlag ENABLE_FORCED_MONO_ICON = getDebugFlag(270396209,
