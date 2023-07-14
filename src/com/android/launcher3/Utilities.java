@@ -166,7 +166,11 @@ public final class Utilities {
 
     @IntDef({TRANSLATE_UP, TRANSLATE_DOWN, TRANSLATE_LEFT, TRANSLATE_RIGHT})
     public @interface AdjustmentDirection{}
-
+   /** public static final boolean IS_DEBUG_DEVICE =
+	    Build.TYPE.toLowerCase(Locale.ROOT).contains("debug") ||
+	    Build.TYPE.toLowerCase(Locale.ROOT).contains("user") ||
+            Build.TYPE.toLowerCase(Locale.ROOT).equals("eng");
+*/
     public static final String GSA_PACKAGE = "com.google.android.googlequicksearchbox";
     public static final String LENS_ACTIVITY = "com.google.android.apps.lens.MainActivity";
     public static final String LENS_URI = "google://lens";
